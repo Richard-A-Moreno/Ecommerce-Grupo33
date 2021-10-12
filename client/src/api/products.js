@@ -1,5 +1,6 @@
 import { API_URL } from "../utils/constants";
 
+//Traer productos (limite 1000)
 export async function getProducts(limit = 1000) {
   try {
     const response = await fetch(
