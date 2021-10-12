@@ -24,7 +24,7 @@ export default {
 
 <style>
 .basic-layout{
-  background-color: rgb(41, 40, 40);
+  background-color: rgb(10, 10, 10);
   background-image: "../assets/banner.png";
   backface-visibility: visible;
 }
