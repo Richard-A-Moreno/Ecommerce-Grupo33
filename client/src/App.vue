@@ -3,3 +3,50 @@
   
   <router-view/>
 </template>
+
+<style >
+/*------------------------------------------------------------------
+    IMPORT FONTS
+-------------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Paprika');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
+
+
+
+/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 03/01/2018 07:38
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../src/fonts/Flaticon.eot");
+  src: url("../src/fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("../src/fonts/Flaticon.woff") format("woff"),
+       url("../src/fonts/Flaticon.ttf") format("truetype"),
+       url("../src/fonts/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("../src/fonts/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  	font-family: Flaticon;
+    font-size: 50px;
+	font-style: normal;
+	margin-left: 0px;
+}
+
+.flaticon-canape:before { content: "\f100"; }
+.flaticon-dinner:before { content: "\f101"; }
+.flaticon-desert:before { content: "\f102"; }
+.flaticon-coffee:before { content: "\f103"; }
+</style>
