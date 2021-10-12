@@ -1,6 +1,8 @@
 <template>
+
   <BasicLayouts>
-    <h1>Últimos productos</h1>
+    
+    <h1 class ="tituloPrincipal">Bienvenidos a Ristorante Carpincho</h1>
     <div class="ui grid">
       <div
         class="sixten wide mobile eight wide tablet four wide computer column"
@@ -11,6 +13,7 @@
       </div>
     </div>
   </BasicLayouts>
+
 </template>
 
 <script>
@@ -38,3 +41,18 @@ export default {
   },
 };
 </script>
+
+
+
+<style lanf = "scss" scoped>
+
+
+.tituloPrincipal{
+  color: black;
+  text-align: center;
+  font-weight: 50px;
+  font-style: normal;
+  font-family: "Flaticon" ;
+  background-color: rgb(241, 31, 3);
+}
+</style>

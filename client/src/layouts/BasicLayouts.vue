@@ -22,4 +22,10 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.basic-layout{
+  background-color: rgb(41, 40, 40);
+  background-image: "../assets/banner.png";
+  backface-visibility: visible;
+}
+</style>
