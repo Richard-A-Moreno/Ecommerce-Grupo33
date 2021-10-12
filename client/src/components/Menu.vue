@@ -53,6 +53,7 @@ export default {
       categories.value = response;
     });
 
+    //Automaticamente elimina el token
     const logout = () => {
       deleteTokenApi();
       location.replace('/');
