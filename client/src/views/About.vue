@@ -2,7 +2,20 @@
     <BasicLayouts>
         <div>
             <h1 class="titulo1">¿Quiénes Somos?</h1>
-  
+
+
+<div>                     
+		</div>
+       <div> 
+            <h3 class="subt">Un poco sobre el equipo</h3>
+       </div>
+          <div class="texto">
+                 <p> Reconocer y cumplir con las expectativas gastronómicas de nuestros clientes es nuestro compromiso, ven y conocenos. </p>
+ 						</div>
+          <br> 
+
+
+
 
 <section class= "centrar">
    <div class="ui link cards">
@@ -212,5 +225,24 @@ export default {
   width: 10px;
   background: red;
 }
+
+
+
+.subt{
+  color: white;
+  font-family: 'nautilus_pompiliusregular';
+  text-align: center;
+  font-size: 70px;
+  }
+
+
+.texto{
+    color: white;
+  text-align: center;
+  font-weight: 520px;
+  font-size: 30px;
+}
+
+
 </style>
 
