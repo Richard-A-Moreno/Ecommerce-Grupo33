@@ -9,7 +9,11 @@
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                     <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+                        
+                                              
                         <h2 class="block-title"> Nosotros </h2>
+                      
+                       
 						 <p></p>
                         <h3>Misión</h3>
                         <p> Reconocer y cumplir con las expectativas gastronómicas de nuestros clientes, en cocina oriental, ofrecer servicios, platos y atenciones  de calidad que permitan crear huella en nuestros colaboradores, clientes y el entorno. </p>
@@ -43,13 +47,33 @@
       </div>
     </div>
 
+    <br>
+    <br>
+    <br>
+    <br>
     
+
+   <!-- Footer -->
+   <footer class= "bg-dark text white">
+     <div class= "container">
+       <nav>
+         <!-- Logo -->
+         <a href="#" class="col-3 text reset text-uppercase d-flex align-items-center">
+           <img src="../assets/Logo1.png " alt ="Logo Carpincho" class= "img-logo mr-2">
+         </a>
+         
+       </nav>
+     </div>
+  
+  
+    </footer> 
 
   </BasicLayouts>
 
 </template>
 
 <script>
+
 import { ref, onMounted } from 'vue';
 import BasicLayouts from '../layouts/BasicLayouts.vue';
 import { getProducts } from '../api/products';
